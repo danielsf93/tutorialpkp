@@ -31,6 +31,12 @@ extensão Smarty Template Support<br>
 https://pkp.sfu.ca/software/ojs/download/archive/<br>
 verificar qual é a sua versão<br>
 
+<b>Criar database mariadb</b><br>
+mariadb -uadmin -padmin<br>
+create database ojsaaa;<br>
+show databases;<br>
+quit<br>
+
 <b>Rodar página ojs</b><br>
 php -S 0.0.0.0:8888<br>
 http://0.0.0.0:8888/<br>
@@ -40,8 +46,4 @@ https://www.phpmyadmin.net/downloads/<br>
 php -S 0.0.0.0:7777<br>
 http://0.0.0.0:7777/<br>
 
-<b>Criar database mariadb</b><br>
-mariadb -uadmin -padmin<br>
-create database ojsaaa;<br>
-show databases;<br>
-quit<br>
+
