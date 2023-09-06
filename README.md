@@ -14,13 +14,11 @@ sudo apt install php7.4<br>
 sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl php7.4-gd php7.4-imagick php7.4-cli php7.4-dev php7.4-imap php7.4-mbstring php7.4-opcache php7.4-soap php7.4-zip php7.4-intl -y<br>
 
 <b>Instalar e configurar mariadb</b><br>
-'''
-       sudo apt install mariadb-server<br>
-       sudo mariadb<br>
-      <p> GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' IDENTIFIED BY 'admin' WITH GRANT OPTION;</p><br> 
-       quit<br>
-       exit<br>
-'''
+sudo apt install mariadb-server<br>
+sudo mariadb<br>
+GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%' IDENTIFIED BY 'admin' WITH GRANT OPTION;</p><br> 
+quit<br>
+exit<br>
 
 <b>Instalar ferramentas complementares</b><br>
 vscodium<br>
