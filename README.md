@@ -16,7 +16,9 @@ sudo apt install php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-curl
 <b>Instalar e configurar mariadb</b><br>
 sudo apt install mariadb-server<br>
 sudo mariadb<br>
-GRANT ALL PRIVILEGES ON *&lt;.*&gt; TO 'admin'@'%' IDENTIFIED BY 'admin' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'admin'@'%'  IDENTIFIED BY 'admin' WITH GRANT OPTION;<br>
+![image](https://github.com/danielsf93/tutorialpkp/assets/114300053/22f9f549-6ea3-4151-b07a-a33219d2dbfb)
+<br>
 quit<br>
 exit<br>
 
